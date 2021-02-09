@@ -118,16 +118,16 @@ end
 %     softmaxLayer
 %     classificationLayer];
 
-% % 0.9846
-% layers = [...
-%     imageInputLayer([d1,d2,1])
-%     convolution2dLayer(5,16,'DilationFactor',1,'Padding','same')
-%     reluLayer
-%     batchNormalizationLayer
-%     maxPooling2dLayer(3)
-%     fullyConnectedLayer(10)
-%     softmaxLayer
-%     classificationLayer];
+% accuracy = 0.9846
+layers = [...
+    imageInputLayer([d1,d2,1])
+    convolution2dLayer(5,16,'DilationFactor',1,'Padding','same')
+    reluLayer
+    batchNormalizationLayer
+    maxPooling2dLayer(3)
+    fullyConnectedLayer(10)
+    softmaxLayer
+    classificationLayer];
 
 % AlexNet variant from class
 % layers = [...
